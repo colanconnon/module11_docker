@@ -2,3 +2,5 @@ REPOSITORY          TAG                 IMAGE ID            CREATED             
 alpine              3.3                 47cf20d8c26c        7 weeks ago         4.797 MB
 
 bash-4.3# 
+
+docker: Error response from daemon: oci runtime error: exec: "/bin/bash": stat /bin/bash: no such file or directory.
