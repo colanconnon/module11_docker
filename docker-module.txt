@@ -4,3 +4,6 @@ alpine              3.3                 47cf20d8c26c        7 weeks ago         
 bash-4.3# 
 
 docker: Error response from daemon: oci runtime error: exec: "/bin/bash": stat /bin/bash: no such file or directory.
+
+
+bash-4.3# 
