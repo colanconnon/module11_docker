@@ -8,19 +8,5 @@ docker: Error response from daemon: oci runtime error: exec: "/bin/bash": stat /
 
 bash-4.3# 
 
-
-Sending build context to Docker daemon 61.95 kB
-Step 1 : FROM alpine:3.3
- ---> 47cf20d8c26c
-Step 2 : RUN apk add --no-cache bash
- ---> Using cache
- ---> 44dd8912554d
-Step 3 : COPY welcome.sh /home/welcome.sh
- ---> Using cache
- ---> b208d7a0fc54
-Step 4 : RUN /bin/bash /home/welcome.sh
- ---> Running in c3bb56a9643d
+Colans-MacBook-Pro:docker colanconnan$ docker run -i -t realpage/alpine-bash:3.3 /bin/bash /home/welcome.sh
 Hello, World!
- ---> e2600381e41b
-Removing intermediate container c3bb56a9643d
-Successfully built e2600381e41b
