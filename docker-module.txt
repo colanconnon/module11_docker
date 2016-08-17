@@ -14,3 +14,11 @@ Hello, World!
 
 Colans-MacBook-Pro:docker colanconnan$ docker run realpage/alpine-bash:3.3
 Hello, World!
+
+REPOSITORY                TAG                 IMAGE ID            CREATED             SIZE
+realpage/alpine-bash      3.3                 7a5a440d8fb2        3 minutes ago       8.239 MB
+<none>                    <none>              e2600381e41b        12 minutes ago      8.239 MB
+<none>                    <none>              7a74dd130372        28 minutes ago      8.239 MB
+dockercloud/hello-world   latest              2875bb390709        4 weeks ago         30.78 MB
+alpine                    latest              4e38e38c8ce0        7 weeks ago         4.799 MB
+alpine                    3.3                 47cf20d8c26c        7 weeks ago         4.797 MB
